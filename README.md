@@ -99,7 +99,7 @@ python logit_lens_hf.py "床前明月光，" 5   # 自定义提示词 + 生成 5
 ## 常见问题
 
 - **支持哪些操作系统？** 本项目在 Windows、WSL2、Linux 上验证可用，
-  **暂不支持 macOS**。Windows 原生直接使用系统字体；WSL2/Linux 用户
+  **可能暂不支持 macOS**。Windows 原生直接使用系统字体；WSL2/Linux 用户
   的字体与磁盘挂载路径会自动适配，无需手动配置。
 - **图里中文变成方框？** 脚本会自动找中文字体：Windows 用系统字体，
   Linux 可安装开源字体：`sudo apt install fonts-noto-cjk`。
